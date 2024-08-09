@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         a{
+             border: 1px solid;
+        padding: 70px;
+        margin:30px;
+        display:inline-flex;
+        width:100px;
+        border-radius: 100px;
+        font-size: 20px;
+         box-shadow:rgb(202, 30, 59) 20px 20px 20px;
+animation-name: box;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+font-size:20px;
+animation-delay:5s;
+    }
+
+
+    
+    @keyframes box {
+      25%{
+        transform: translatex(500px);
+        transition: all  ease-in-out;
+       } 
+       50%{
+        transform: rotate(200deg);
+        transition: all  ease-in-out;
+       }
+       75%{
+        transform: rotate(180deg);
+        transition: all 3s ease-in-out;
+       } 
+       100%{
+        transform: rotate(360deg);
+      
+    }
+    0%{
+        transform:scale(1);
+       
+    }
+}
+    </style>
+</head>
+<body>
+    
+    <a href="https://sravya-com.github.io/animations-in-css/task1.html" >Music bets</a><br>
+    <a href="https://sravya-com.github.io/animations-in-css/task2.html" >Google dots</a>
+    
+</body>
+</html>
